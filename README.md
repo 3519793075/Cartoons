@@ -16,11 +16,13 @@
 ![图片](https://user-images.githubusercontent.com/59997978/221734762-227dac9d-780a-4449-b2a5-3a711015769f.png)
 
 
-### 2 注册：在登录页面也可以跳转注册页面register.html，再跳转Register.jsp利用Register,java连接数据库完成用户名注册。
+### 2 注册
+在登录页面也可以跳转注册页面register.html，再跳转Register.jsp利用Register,java连接数据库完成用户名注册。
 
 ![图片](https://user-images.githubusercontent.com/59997978/221734872-b55e0c5f-0829-4a27-870e-e0e283f02093.png)
 
-### 3 首页：在登录后进入首页home.html，这里可以跳转Movies.html和news.html,也可以跳转外网站。
+### 3 首页
+在登录后进入首页home.html，这里可以跳转Movies.html和news.html,也可以跳转外网站。
 
 ### 4 其余界面
 
