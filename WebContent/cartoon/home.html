@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>动漫天地 </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- css -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+<!--// css -->
+<!-- font -->
+<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,100,100italic,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!-- //font -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+
+</head>
+<body> 
+<!-- Header -->
+	<div class="header">
+		<!-- Navbar -->
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a  href="index.html"><h1>动漫天地 <img src="images/c1.png" alt=" " /> Zone</h1></a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="hover-effect"><a href="home.html">Home</a></li>
+						<li class="hover-effect"><a href="Movies.html">Movies </a></li>
+						<li class="hover-effect"><a href="news.html">News</a></li>
+					</ul>
+				</div>
+
+			</div>
+		</nav>
+		<!-- //Navbar -->
+
+		<!-- Slider -->
+		<!-- 三个图片 -->
+		<div class="slider">
+			<ul class="rslides" id="slider">
+				<li>
+					<img src="images/banner3.jpg" alt="" />
+				</li>
+				<li>
+					<img src="images/banner2.jpg" alt="" />
+				</li>
+				<li>
+					<img src="images/banner1.jpg" alt="" />
+				</li>
+			</ul>
+		</div>
+		<!-- 三个图片 -->
+		<!-- //Slider -->
+
+	</div>
+	<!-- Banner-Slider-JavaScript -->
+	<!-- 三张图片自动切换 -->
+	<script src="js/responsiveslides.min.js"></script>
+	<script>
+		$(function () {
+			$("#slider").responsiveSlides({
+				auto: true,
+				nav: true,
+				speed: 800,
+				namespace: "callbacks",
+				pager: true,
+			});
+		});
+	</script>
+	<!-- //Banner-Slider-JavaScript -->
+	<!-- //Header -->
+
+<!-- trend -->
+<div class="trend-w3layouts">
+	<div class="container">
+		<h2>分类</h2>
+		<ul id="flexiselDemo1">			
+				<li>
+					<div class="trend-grid">
+						<h4>竞技</h4>
+						<img src="images/tg1.jpg" alt=" " class="img-responsive" />
+					</div>
+				</li>
+				<li>
+					<div class="trend-grid">
+						<h4>3D </h4>
+						<img src="images/tg2.jpg" alt=" " class="img-responsive" />
+					</div>
+				</li>
+				<li>
+					<div class="trend-grid">
+						<h4>动作</h4>
+						<img src="images/tg3.jpg" alt=" " class="img-responsive" />
+					</div>
+				</li>
+				<li>
+					<div class="trend-grid">
+						<h4>国产</h4>
+						<img src="images/tg4.jpg" alt=" " class="img-responsive" />
+					</div>
+				</li>
+			</ul>
+						<script type="text/javascript">
+							$(window).load(function() {
+								$("#flexiselDemo1").flexisel({
+									visibleItems: 4,
+									animationSpeed: 1000,
+									autoPlay: true,
+									autoPlaySpeed: 3000,    		
+									pauseOnHover: true,
+									enableResponsiveBreakpoints: true,
+									responsiveBreakpoints: { 
+										portrait: { 
+											changePoint:480,
+											visibleItems: 2
+										}, 
+										landscape: { 
+											changePoint:640,
+											visibleItems:3
+										},
+										tablet: { 
+											changePoint:768,
+											visibleItems: 4
+										}
+									}
+								});
+								
+							});
+					</script>
+					<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+	</div>
+</div>
+<!-- //trend -->
+
+
+<!-- services-->
+<div class="services-agileits-w3layouts">
+	<div class="container">
+		<h3>Services</h3>
+		<div class="col-md-3 service-grid-agileits service-grid-agileits-top">
+			<span class="glyphicon glyphicon-sort-by-attributes" aria-hidden="true"></span>
+			<h4>腾讯动漫</h4>
+			<p>中国最大最权威的正版动漫网站,连载众多原创国漫,原创动画,正版日漫等海内外最热正版动漫,为动漫爱好者提供漫画、动画、资讯一站式全方位动漫服务。</p>
+			<a href="https://ac.qq.com/">Read More</a>
+		</div>
+		<div class="col-md-3 service-grid-agileits">
+			<span class="glyphicon glyphicon-random" aria-hidden="true"></span>
+			<h4>4399动漫网</h4>
+			<p>4399动漫为您提供国内外各种好看的动漫;每日推荐热门的国产/日本动漫、新番漫画/动画片,汇集了众多原创国漫、动画作品,是一个追求卓越的动漫网站。</p>
+			<a href="http://www.4399dmw.com/">Read More</a>
+		</div>
+		<div class="col-md-3 service-grid-agileits service-grid-agileits-bottom">
+			<span class="glyphicon glyphicon-yen" aria-hidden="true"></span>
+			<h4>有妖气动漫</h4>
+			<p>中国唯一且最大的纯原创漫画网站,数千名中国原创漫画作者汇聚于此,在线连载最热门的全新漫画作品,为中国原创漫画作者提供最肥沃的漫画创作土壤。</p>
+			<a href="https://www.u17.com/">Read More</a>
+		</div>
+		<div class="col-md-3 service-grid-agileits service-grid-agileits-bottom">
+			<span class="glyphicon glyphicon-object-align-right" aria-hidden="true"></span>
+			<h4>动漫屋</h4>
+			<p>动漫屋专注于原创精品漫画的在线阅读、我们将会为您提供最新最全的原创精品漫画、漫画人:为看漫画的人而生。</p>
+			<a href="https://www.dm5.com/">Read More</a>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!-- //services-->
+
+<!-- new games -->
+<div class="new-w3-agile">
+	<div class="container">
+		<h3>热门推荐</h3>
+		<div class="col-md-3 new-grid-w3l view view-eighth">
+			<img src="images/ng1.jpg" alt=" " />
+			<div class="mask">
+				<a href="https://www.u17.com/comic/3166.html"><h4>《镇魂街》</h4></a>
+				<p>镇魂街乃吸纳亡灵镇压恶灵之地...</p>
+			</div>
+		</div>
+		<div class="col-md-3 new-grid-w3l view view-eighth">
+			<img src="images/ng2.jpg" alt=" " />
+			<div class="mask">
+				<a href="https://www.u17.com/comic/195.html"><h4>《雏蜂》</h4></a>
+				<p>公元XX年，“尖兵”作为一种新型的武器开始广泛的运用...</p>
+			</div>
+		</div>
+		<div class="col-md-3 new-grid-w3l view view-eighth">
+			<img src="images/ng3.jpg" alt=" " />
+			<div class="mask">
+				<a href="https://www.u17.com/comic/13707.html"><h4>《端脑》</h4></a>
+				<p>端脑是什么？</p>
+			</div>
+		</div>
+		<div class="col-md-3 new-grid-w3l view view-eighth">
+			<img src="images/ng4.jpg" alt=" " />
+			<div class="mask">
+				<a href="https://www.u17.com/comic/57524.html"><h4>《尚善》</h4></a>
+				<p>一个怪蜀黎收了一个怪萝莉为徒...</p>
+			</div>
+		</div>
+		<div class="col-md-3 new-grid-agile view view-eighth">
+			<img src="images/ng5.jpg" alt=" " />
+			<div class="mask">
+				<a href="https://www.u17.com/comic/8805.html"><h4>《虎x鹤 妖师录》</h4></a>
+				<p>妖魔鬼怪，仙道妖法</p>
+			</div>
+		</div>
+		<div class="col-md-3 new-grid-agile view view-eighth">
+			<img src="images/ng6.jpg" alt=" " />
+			<div class="mask">
+				<a href="https://www.u17.com/comic/116969.html"><h4>《雪国》</h4></a>
+				<p>一切在雪原结束，又在雪原开始。</p>
+			</div>
+		</div>
+		<div class="col-md-3 new-grid-agile view view-eighth">
+			<img src="images/ng7.jpg" alt=" " />
+			<div class="mask">
+				<a href="https://www.u17.com/comic/199649.html"><h4>《旧日入侵》</h4></a>
+				<p>一个落魄没志气的小混混马仔，经历第一次陷入爱河...</p>
+			</div>
+		</div>
+		<div class="col-md-3 new-grid-agile view view-eighth">
+			<img src="images/ng8.jpg" alt=" " />
+			<div class="mask">
+				<a href="https://www.u17.com/comic/75859.html"><h4>《噬规者》</h4></a>
+				<p>原本是普通人类的警察雷恩...</p>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!-- //new games-->
+
+
+
+<!-- footer -->
+<div class="footer">
+	<div class="container">
+		<div class="col-md-3 footer-left-w3">
+			<h4>联系我们</h4>
+			<ul>
+				<li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></li>
+				<li><a href="mailto:2200577082@qq.com"><h6>2200577082@qq.com</h6></a></li>
+			</ul>
+			<ul>
+				<li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span></li>
+				<li><h6>+180xxxxxxx</h6></li>
+			</ul>
+			<ul>
+				<li><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span></li>
+				<li><h6>东华理工大学,江西南昌</h6></li>
+			</ul>
+			<ul>
+				<li><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span></li>
+				<li><h6>xxx xxxx xxx</h6></li>
+			</ul>
+		</div>
+		<div class="col-md-5 footer-middle-w3">
+			<h4>最新动漫</h4>
+			<div class="col-md-3 img-w3-agile">
+				<a href="https://ac.qq.com/Rank"><img src="images/ng1.jpg" alt=" " /></a>
+			</div>
+			<div class="col-md-3 img-w3-agile">
+				<a href="https://ac.qq.com/Rank"><img src="images/ng2.jpg" alt=" " /></a>
+			</div>
+			<div class="col-md-3 img-w3-agile">
+				<a href="https://ac.qq.com/Rank"><img src="images/ng3.jpg" alt=" " /></a>
+			</div>
+			<div class="col-md-3 img-w3-agile">
+				<a href="https://ac.qq.com/Rank"><img src="images/ng4.jpg" alt=" " /></a>
+			</div>
+			<div class="col-md-3 img-w3-agile footer-middle-wthree">
+				<a href="https://ac.qq.com/Rank"><img src="images/ng5.jpg" alt=" " /></a>
+			</div>
+			<div class="col-md-3 img-w3-agile footer-middle-wthree">
+				<a href="https://ac.qq.com/Rank"><img src="images/ng6.jpg" alt=" " /></a>
+			</div>
+			<div class="col-md-3 img-w3-agile footer-middle-wthree">
+				<a href="https://ac.qq.com/Rank"><img src="images/ng7.jpg" alt=" " /></a>
+			</div>
+			<div class="col-md-3 img-w3-agile footer-middle-wthree">
+				<a href="https://ac.qq.com/Rank"><img src="images/ng8.jpg" alt=" " /></a>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="col-md-4 footer-right-w3">
+			<a href="index.html"><h4>动漫天地 <img src="images/f1.png" alt=" " /> Zone</h4></a>
+			<p>动漫天地为动漫爱好者退件最好看、最新最快的动漫大全,日本动漫,国产、欧美、TV版、OVA版、剧场版动画片等,好看的动漫电影就在动漫天地。</p>
+			<p class="agileinfo">最新最热的电视版动漫同步连载,高清剧场版动漫实时更新。</p>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+<!-- //footer -->
+</body>
+</html>
